@@ -4,4 +4,4 @@ This is a full-stack application created using Next.js allowing potential custom
 
 # License
 
-MIT license. Click [here]("./LICENSE) to view.
+MIT license. Click [here](/LICENSE) to view.
