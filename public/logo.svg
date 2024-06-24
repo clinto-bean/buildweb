@@ -1,0 +1,55 @@
+<!-- <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#0284C7"/>
+  <g fill="white">
+    <path d="M60,60 L140,60 L140,140 L60,140 Z" fill="none" stroke="white" stroke-width="10"/>
+    <circle cx="60" cy="60" r="10"/>
+    <circle cx="140" cy="60" r="10"/>
+    <circle cx="60" cy="140" r="10"/>
+    <circle cx="140" cy="140" r="10"/>
+    <line x1="60" y1="60" x2="140" y2="140" stroke="white" stroke-width="5"/>
+    <line x1="140" y1="60" x2="60" y2="140" stroke="white" stroke-width="5"/>
+  </g>
+</svg> -->
+
+<!-- <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#0284C7"/>
+  <g fill="white">
+    <circle cx="100" cy="100" r="80" fill="none" stroke="white" stroke-width="10"/>
+    <rect x="45" y="45" width="110" height="110" fill="none" stroke="white" stroke-width="10"/>
+    <path d="M50,100 L150,100" stroke="white" stroke-width="10"/>
+    <path d="M100,50 L100,150" stroke="white" stroke-width="10"/>
+  </g>
+</svg> -->
+
+<svg
+      width='200'
+      height='200'
+      viewBox='0 0 200 200'
+      xmlns='http://www.w3.org/2000/svg'>
+      <rect width='200' height='200' fill={theme.accent} />
+      <g fill={theme.neutral}>
+        <circle
+          cx='100'
+          cy='100'
+          r='80'
+          fill={theme.bg}
+          stroke={theme.text}
+          stroke-width='10'
+        />
+        <ellipse cx='100' cy='80' rx='45' ry='20' fill={theme.bg} />
+        <path d='M55,80 Q100,110 145,80' fill={theme.bg} />
+        <path
+          d='M55,80 Q100,50 145,80'
+          fill={theme.bg}
+          stroke={theme.text}
+          stroke-width='10'
+        />
+        <path
+          d='M55,80 L55,120 Q100,150 145,120 L145,80'
+          fill={theme.bg}
+          stroke={theme.text}
+          stroke-width='10'
+        />
+        <path d='M55,120 Q100,150 145,120' fill={theme.accent} />
+      </g>
+    </svg>
