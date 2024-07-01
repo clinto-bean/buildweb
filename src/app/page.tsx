@@ -9,7 +9,7 @@ export default function Page(): JSX.Element {
   function CodeIcon() {
     return (
       <svg
-        className='w-12 h-12 text-gray-500 dark:text-gray-400'
+        className='size-12 hover:scale-110 transition-all text-gray-500 dark:text-gray-400'
         xmlns='http://www.w3.org/2000/svg'
         width='24'
         height='24'
@@ -28,7 +28,7 @@ export default function Page(): JSX.Element {
   function DatabaseIcon() {
     return (
       <svg
-        className='w-12 h-12 text-gray-500 dark:text-gray-400'
+        className='size-12 hover:scale-110 transition-all text-gray-500 dark:text-gray-400'
         xmlns='http://www.w3.org/2000/svg'
         width='24'
         height='24'
@@ -48,7 +48,7 @@ export default function Page(): JSX.Element {
   function ShieldIcon() {
     return (
       <svg
-        className='w-12 h-12 text-gray-500 dark:text-gray-400'
+        className='size-12 hover:scale-110 transition-all text-gray-500 dark:text-gray-400'
         xmlns='http://www.w3.org/2000/svg'
         width='24'
         height='24'
@@ -66,16 +66,17 @@ export default function Page(): JSX.Element {
   return (
     <section
       style={{ color: theme.text, backgroundColor: theme.bg }}
-      className='w-screen h-screen flex justify-center items-center py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800'>
+      className='size-full flex justify-center items-center py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800'>
       <div className='max-w-screen container px-4 md:px-6 text-center'>
         <div className='max-w-3xl mx-auto space-y-6'>
           <h1 className='text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl'>
-            Your Full Digital Potential{" "}
-            <span style={{ color: theme.accent }}>Unlocked</span>
+            The <span style={{ color: theme.accent }}>Amazon</span> of Web
+            Services{" "}
           </h1>
           <p className='text-lg' style={{ color: theme.muted }}>
             From database maintenance and API development to functional UIs and
-            everything in between, Buildweb has you covered.
+            everything in between, our team of seasoned engineers has you
+            covered.
           </p>
           <div className='grid grid-cols-1 sm:grid-cols-3 gap-6'>
             <div className='flex flex-col items-center space-y-3'>

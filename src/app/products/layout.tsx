@@ -1,18 +1,17 @@
 "use client"
 import { ThemeProvider } from "@/app/ThemeContext"
 import Link from "next/link"
-import { ReactNode } from "react"
 
-interface Props {
-  children?: ReactNode
-}
-
-export default function ProductsLayout(children: Props["children"]) {
+export default function ProductsLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
   return (
     <div className='size-full relative flex justify-center items-center'>
       <Link
         href='/'
-        className='absolute top-24 left-8 bg-white rounded-md p-2 z-50'>
+        className='fixed top-20 max-md:hidden left-4 bg-[#DDD] hover:bg-opacity-90 bg-opacity-40 rounded-md p-2 z-50'>
         Back
       </Link>
       {children}

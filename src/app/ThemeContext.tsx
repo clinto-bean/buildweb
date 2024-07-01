@@ -9,7 +9,7 @@ export type Theme = {
 }
 
 const lightTheme = {
-  accent: "#0284C7",
+  accent: "#0254C0",
   neutral: "#9CA3AF",
   muted: "#6B7280",
   bg: "#F3F4F6",
@@ -32,7 +32,7 @@ const ThemeContext = createContext({
 export const useTheme = () => useContext(ThemeContext)
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  const [theme, setTheme] = useState(darkTheme)
+  const [theme, setTheme] = useState(lightTheme)
 
   const toggleTheme = () => {
     setTheme((prevTheme: Theme) =>

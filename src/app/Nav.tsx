@@ -16,9 +16,9 @@ export default function Nav() {
 
   return (
     <header
-      className='z-50 absolute top-0 flex items-center justify-between p-3 shadow-sm w-full'
+      className='z-50 sticky top-0 flex items-center justify-between p-3 shadow-sm w-full'
       style={{ color: theme.text, backgroundColor: theme.accent }}>
-      <Link className='size-8 overflow-hidden rounded-lg' href='/'>
+      <Link className='size-8 overflow-hidden rounded-lg' href='#'>
         <button
           className='text-xs flex items-center justify-center h-full'
           onClick={() => {
@@ -79,7 +79,7 @@ export default function Nav() {
 function ChevronDownIcon() {
   return (
     <svg
-      className='h-4 w-4'
+      className='size-4'
       xmlns='http://www.w3.org/2000/svg'
       width='24'
       height='24'

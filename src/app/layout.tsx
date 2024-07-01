@@ -17,7 +17,7 @@ export default function RootLayout({
       <title>Build Web</title>
       <body
         className={
-          `relative h-[100dvh] max-h-[100dvh] max-w-[100dvw] w-[100dvw] overflow-hidden` +
+          `relative bg-cover h-full max-h-[100svh] max-w-[100dvw] overflow-hidden` +
           inter.className
         }>
         <ThemeProvider>
